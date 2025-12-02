@@ -5,13 +5,13 @@ import NFTCard from './NFTCard';
 
 const MembershipBenefits: React.FC = () => {
   return (
-    <section id="benefits" className="py-24 bg-gradient-to-b from-[#0F0F0F] to-brand-black">
+    <section id="benefits" className="py-32 bg-gradient-to-b from-[#0F0F0F] to-brand-black">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-16">
           
           {/* Left Side: Text and NFT Card */}
           <div className="lg:w-1/3">
-             <div className="sticky top-24">
+             <div className="sticky top-40">
                 <h2 className="text-3xl md:text-5xl font-serif text-brand-cream mb-6">
                   Le Renaissance Club <br/>
                   <span className="text-brand-gold italic">Membership</span>
